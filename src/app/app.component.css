@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #edeff2;
+  font-family: "Calibri", "Roboto", sans-serif;
+}
+
+.chat_window {
+  width: 100%;
+  height: 100vh;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  background-color: #f8f8f8;
+}
+
+.top_menu {
+  background-color: #fff;
+  width: 100%;
+  padding: 20px 0 15px;
+  box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+}
+
+.top_menu .buttons {
+  margin: 3px 0 0 20px;
+  position: absolute;
+}
+
+.top_menu .buttons .button {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+}
+
+.top_menu .buttons .button.close {
+  background-color: #f5886e;
+}
+
+.top_menu .buttons .button.minimize {
+  background-color: #fdbf68;
+}
+
+.top_menu .buttons .button.maximize {
+  background-color: #a3d063;
+}
+
+.top_menu .title {
+  text-align: center;
+  color: #bcbdc0;
+  font-size: 20px;
+}
+
+.message_template {
+  display: none;
+}
